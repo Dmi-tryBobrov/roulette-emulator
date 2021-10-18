@@ -13,9 +13,9 @@ public class Emulate extends SwingWorker<Void, Void> {
 
     String result; //after each turn the result is generated
     static double WIN_PROB = 18.0/37.0; //default European style roulette with 1 zero
-    static long ROLLS_MAX = 10; //First and last {ROLLS_MAX} of rolls to display
-    LinkedList<String> list_output_first = new LinkedList<>(); //stores first {ROLLS_MAX} rolls
-    LinkedList<String> list_output_last = new LinkedList<>(); //stores last {ROLLS_MAX} rolls
+    static long ROLLS_MAX = 101; //First and last {ROLLS_MAX - 1} of rolls to display
+    LinkedList<String> list_output_first = new LinkedList<>(); //stores first {ROLLS_MAX - 1} rolls
+    LinkedList<String> list_output_last = new LinkedList<>(); //stores last {ROLLS_MAX - 1} rolls
 
     //timer for changes to occur if calculations are lengthy
     Timer timer;
