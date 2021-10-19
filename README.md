@@ -1,8 +1,4 @@
 # roulette-emulator
-<h1> About .jar file </h1>
-Файл roulette_1_00.jar является исполняемым и поддерживает полную функциональность приложения (проверено на Ubuntu 20.04 LTS и Windows 10), в качетве SDK использовалась
-Java 17 LTS (https://www.oracle.com/java/technologies/downloads/)
-Specification: JSR- 392 Java SE 17 ("Specification"); Version: 17; Status: Final Release; Release: September 2021.
 
 <h1> English brief description </h1>
 
